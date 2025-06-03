@@ -10,7 +10,7 @@ st.set_page_config(page_title="Digital Wellbeing Analyzer", layout="wide")
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\balap\\Desktop\\VS CODE\\Digital_wellbeing_analyser\\digital_wellbeing_cleaned.csv", parse_dates=["Date"])
+    df = pd.read_csv("digital_wellbeing_cleaned.csv", parse_dates=["Date"])
     return df
 
 df = load_data()

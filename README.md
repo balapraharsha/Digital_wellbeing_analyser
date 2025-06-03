@@ -2,6 +2,9 @@
 # 📱 Digital Wellbeing Analyzer
 
 A Streamlit-based interactive web app that helps users explore their **digital wellbeing** by analyzing their daily data on screen time, app usage, sleep, productivity, and mood. The app also includes a **machine learning model** to predict mood based on daily habits.
+An interactive Streamlit app to explore personal digital habits like screen time, mood, sleep, productivity, and app usage.
+
+🔗 **Live Demo:** [Click here to open the app](https://mood-predictor-app.streamlit.app/)
 
 ---
 

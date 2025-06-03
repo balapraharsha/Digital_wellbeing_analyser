@@ -34,12 +34,16 @@ An interactive Streamlit app to explore personal digital habits like screen time
 ```
 Digital_wellbeing_analyser/
 │
-├── app.py                         # Main Streamlit app
-├── ml_predictor.py                # Script to train and save the ML model
-├── mood_predictor_model.pkl       # Saved ML model
-├── digital_wellbeing_cleaned.csv  # Cleaned dataset
-├── README.md                      # Project documentation
-└── requirements.txt               # List of dependencies
+├── app.py                            # Main Streamlit app
+├── ml_predictor.py                   # Script to train and save the ML model
+├── mood_predictor_model.pkl          # Saved ML model
+├── digital_wellbeing_cleaned.csv     # Cleaned dataset
+├── requirements.txt                  # List of dependencies
+├── README.md                         # Project documentation
+└── notebooks/                        # Colab notebooks for data cleaning, EDA, etc.
+    └── data_cleaning.ipynb
+    └── eda.ipynb
+    └── digital_wellbeing_365_days.csv
 ```
 
 ---

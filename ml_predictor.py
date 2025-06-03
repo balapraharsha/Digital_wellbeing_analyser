@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import joblib  # For saving the model
 
 # Load cleaned data
-df = pd.read_csv("C:\\Users\\balap\\Desktop\\VS CODE\\Digital_wellbeing_analyser\\digital_wellbeing_cleaned.csv", parse_dates=["Date"])
+df = pd.read_csv("digital_wellbeing_cleaned.csv", parse_dates=["Date"])
 
 # Encode 'Weekend' as binary
 df["Weekend"] = df["Weekend"].map({"Yes": 1, "No": 0})

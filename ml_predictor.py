@@ -44,4 +44,4 @@ print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 
 # Save model
 joblib.dump(model, "mood_predictor_model.pkl")
-print("✅ Model trained and saved as 'mood_predictor_model.pkl'")
+print("Model trained and saved as 'mood_predictor_model.pkl'")
